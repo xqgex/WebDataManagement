@@ -1,0 +1,53 @@
+Image sources with non-empty 'alt':
+[
+https://static.euronews.com/website/images/euronews_horizontal_flat.svg
+https://static.euronews.com/website/images/euronews_horizontal_flat.svg
+http://static.euronews.com/articles/archive/603x339_archive.jpg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_fb.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_twitter.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_reddit.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_fb.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_twitter.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_reddit.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_mail.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_messenger.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_linkedin.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_google.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_whatsapp.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_messenger.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_linkedin.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_google.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_fb.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_twitter.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_reddit.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_fb.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_twitter.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_reddit.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_mail.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_messenger.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_linkedin.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_google.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_whatsapp.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_messenger.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_linkedin.svg
+http://static.euronews.com/website/images/vector/social-icons/social_icon_google.svg
+https://static.euronews.com/articles/406611/160x90_406611.jpg
+http://static.euronews.com/articles/390365/160x90_390365.jpg
+http://static.euronews.com/articles/385730/160x90_385730.jpg
+http://static.euronews.com/articles/stories/03/10/82/52/160x90_cmsv2_6b43fd51-b21c-5715-8e67-3adcf0b8fd56-3108252.jpg
+http://static.euronews.com/articles/stories/03/10/79/50/160x90_cmsv2_0c6b0e2a-b03e-5081-95c5-77aba59bbd0f-3107950.jpg
+https://static.euronews.com/articles/445803/160x90_445803.jpg
+https://static.euronews.com/website/images/badge-silver.png
+https://static.euronews.com/website/images/badge-gold.png
+//fr.sitestat.com/euronews/euronews/s?euronews-com.business.economy.302565.uber-taxis-overtake-new-york-yellow-cabs&lng=en&thm=business&prog=economy&srvn=euronews-com&srvt=web&cnt=txt&cnts=article&sv=2.0&vtc=news&tags=transport|economy|new-york&art_id=302565&subj=uber-taxis-overtake-new-york-yellow-cabs&hn=150320_BUSU_150A&date=20150320&cntr=usa&type=st&org=tv&frm=st
+//pixel.quantserve.com/pixel/p-8WySRT3MRSkuS.gif
+]
+Links to .co.il domains:
+[
+]
+Content of second row in first table:
+[
+]
+All italic words:
+[
+]

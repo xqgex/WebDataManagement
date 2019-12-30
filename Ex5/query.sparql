@@ -1,0 +1,3 @@
+SELECT ?ans WHERE {
+<https://yogev.nati.com/Of,_Turkey> <https://yogev.nati.com/website> ?ans .
+}

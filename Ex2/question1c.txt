@@ -1,0 +1,225 @@
+/wiki/Ukraine = {/wiki/Ukraine, /wiki/Russia, /wiki/Belarus}
+/wiki/Surname = {/wiki/Lusophone, /wiki/Mononym, /wiki/Byname, /wiki/Johann_Sebastian_Bach, /wiki/Suriname, /wiki/English-speaking_world, /wiki/Last_Name_(song), /wiki/Roman_Empire, /wiki/John_Fitzgerald_Kennedy, /wiki/Hispanophone}
+/wiki/Johann_Sebastian_Bach = {/wiki/Johann_Sebastian_Bach}
+/wiki/Russian_Cup_(football) = {/wiki/Russian_language, /wiki/Moscow, /wiki/Russian_Premier_League, /wiki/FC_Moscow, /wiki/Association_football, /wiki/FC_Spartak_Moscow, /wiki/Soviet_Cup, /wiki/Russia, /wiki/Russian_Cup_(football), /wiki/PFC_CSKA_Moscow}
+/wiki/Patronymic = {/wiki/Family_name, /wiki/Patronymic_surname, /wiki/Johnson, /wiki/Given_name, /wiki/Lineage_(anthropology), /wiki/Matronymic, /wiki/Patronym_(disambiguation), /wiki/Patronymic_(disambiguation), /wiki/Suffix_(name), /wiki/Personal_name}
+/wiki/Patronym_(disambiguation) = {/wiki/Patronymic}
+/wiki/Leonid_Fedun = {/wiki/Ukraine, /wiki/Moscow, /wiki/Russian_language, /wiki/FC_Spartak_Moscow, /wiki/Leonid_Fedun, /wiki/Soviet_Union}
+/wiki/Spasskaya_Tower = {/wiki/Moscow, /wiki/Spasskaya_Tower, /wiki/Bulgaria}
+/wiki/Byname = {}
+/wiki/Bosnia_and_Herzegovina = {/wiki/Ukraine, /wiki/Bosnia_and_Herzegovina, /wiki/Belarus, /wiki/Russia, /wiki/Bulgaria}
+/wiki/Russia_national_under-21_football_team = {/wiki/Yevgeni_Bushmanov, /wiki/Russian_Football_Union, /wiki/List_of_national_association_football_teams_by_nickname, /wiki/Copenhagen, /wiki/Denmark, /wiki/Denmark_national_under-21_football_team, /wiki/Luxembourg_national_under-21_football_team, /wiki/P%C3%A9tange, /wiki/UEFA, /wiki/List_of_FIFA_country_codes}
+/wiki/MMC_Norilsk_Nickel = {/wiki/Russia, /wiki/Moscow, /wiki/Russian_language, /wiki/MMC_Norilsk_Nickel}
+/wiki/Cathedral_of_Christ_the_Saviour = {/wiki/Russia, /wiki/Moscow, /wiki/Cathedral_of_Christ_the_Saviour}
+/wiki/Eduard_Streltsov_Stadium = {/wiki/Eduard_Streltsov_Stadium, /wiki/Russia, /wiki/Moscow, /wiki/Football_(soccer)}
+/wiki/Suffix_(name) = {/wiki/Patronymic, /wiki/Name, /wiki/Suffix_(name)}
+/wiki/Soviet_Union = {/wiki/World_War_II, /wiki/CCCP_(disambiguation), /wiki/Flag_of_the_Soviet_Union, /wiki/Russian_language, /wiki/State_emblem_of_the_Soviet_Union, /wiki/State_Anthem_of_the_Soviet_Union, /wiki/Soviet_(disambiguation), /wiki/Workers_of_the_world,_unite!, /wiki/USSR_(disambiguation), /wiki/The_Internationale}
+/wiki/Sport = {/wiki/Sport}
+/wiki/Kit_(association_football) = {/wiki/Kit_(association_football)}
+/wiki/Denmark = {/wiki/World_War_II, /wiki/Bosnia_and_Herzegovina, /wiki/Copenhagen, /wiki/Ukraine, /wiki/Association_football, /wiki/Serbia, /wiki/Denmark, /wiki/Russia, /wiki/Bulgaria, /wiki/Belarus}
+/wiki/Matronymic = {/wiki/Matronymic, /wiki/Patronymic, /wiki/Given_name, /wiki/Suffix_(name), /wiki/Russia, /wiki/Personal_name}
+/wiki/Serbia = {/wiki/Ukraine, /wiki/Bosnia_and_Herzegovina, /wiki/Bulgaria, /wiki/Serbia, /wiki/Russia, /wiki/Belarus}
+/wiki/Passing_(association_football) = {/wiki/Passing_(association_football), /wiki/Association_football}
+/wiki/Roman_Empire = {/wiki/Roman_Empire}
+/wiki/Copenhagen = {/wiki/Copenhagen, /wiki/Moscow, /wiki/Bulgaria, /wiki/English-speaking_world, /wiki/Roman_Empire, /wiki/Association_football}
+/wiki/Johnson = {/wiki/Given_name, /wiki/Johnson}
+/wiki/Federal_cities_of_Russia = {/wiki/Ukraine, /wiki/Russia, /wiki/Moscow, /wiki/Federal_cities_of_Russia}
+/wiki/Soviet_Cup = {/wiki/Soviet_Cup, /wiki/Russian_language, /wiki/Association_football, /wiki/FC_Spartak_Moscow, /wiki/FC_Dynamo_Kyiv, /wiki/Soviet_Union, /wiki/PFC_CSKA_Moscow, /wiki/Soviet_Top_League}
+/wiki/Alania_Vladikavkaz = {/wiki/Kit_(association_football), /wiki/FC_Spartak_Moscow, /wiki/Russian_language, /wiki/Away_colours, /wiki/FC_Moscow, /wiki/Association_football, /wiki/Russian_Premier_League, /wiki/Russia, /wiki/PFC_CSKA_Moscow, /wiki/Soviet_Top_League}
+/wiki/Amateur_Football_League = {/wiki/Russia, /wiki/Association_football, /wiki/Russian_language, /wiki/Russian_Premier_League, /wiki/Russian_Cup_(football)}
+/wiki/2017%E2%80%9318_FC_Spartak_Moscow_season = {/wiki/Kit_(association_football), /wiki/Massimo_Carrera, /wiki/Sergey_Rodionov, /wiki/Russian_Premier_League, /wiki/Association_football, /wiki/Serbia, /wiki/FC_Spartak_Moscow, /wiki/Russia, /wiki/Bulgaria, /wiki/Forward_(association_football)}
+/wiki/List_of_FIFA_country_codes = {/wiki/UEFA, /wiki/List_of_FIFA_country_codes, /wiki/Association_football}
+/wiki/Massimo_Carrera = {/wiki/Viktor_Goncharenko, /wiki/Massimo_Carrera, /wiki/Russian_Premier_League, /wiki/Association_football, /wiki/2016%E2%80%9317_Russian_Premier_League, /wiki/FC_Spartak_Moscow, /wiki/PFC_CSKA_Moscow}
+/wiki/Russian_language = {/wiki/Ukraine, /wiki/East_Slavic_languages, /wiki/Federal_cities_of_Russia, /wiki/Moscow, /wiki/Russian_language, /wiki/South_Slavic_languages, /wiki/Russia, /wiki/Soviet_Union, /wiki/Belarus}
+/wiki/Yevgeni_Giner = {/wiki/Yevgeni_Giner, /wiki/PFC_CSKA_Moscow}
+/wiki/Bolshoi_Theatre = {/wiki/Russia, /wiki/Moscow, /wiki/Bolshoi_Theatre}
+/wiki/UEFA = {/wiki/Ukraine, /wiki/Bosnia_and_Herzegovina, /wiki/Russian_Football_Union, /wiki/Russia_national_under-21_football_team, /wiki/Bulgaria, /wiki/Serbia, /wiki/Russia, /wiki/Soviet_Union, /wiki/Association_football, /wiki/Belarus}
+/wiki/FC_Dynamo_Kyiv = {/wiki/World_War_II, /wiki/Kit_(association_football), /wiki/Ukraine, /wiki/Moscow, /wiki/Association_football, /wiki/Serbia, /wiki/FC_Spartak_Moscow, /wiki/Soviet_Union, /wiki/Forward_(association_football), /wiki/Soviet_Top_League}
+/wiki/Internal_passport_of_Russia = {/wiki/Internal_passport_of_Russia}
+/wiki/Family_name = {/wiki/Patronymic_surname, /wiki/Johnson, /wiki/Matronymic, /wiki/Patronymic, /wiki/Given_name, /wiki/Suffix_(name), /wiki/Personal_name}
+/wiki/CCCP_(disambiguation) = {/wiki/CCCP_(disambiguation)}
+/wiki/Moscow_Kremlin = {/wiki/Russia, /wiki/Moscow, /wiki/Spasskaya_Tower, /wiki/Moscow_Kremlin}
+/wiki/East_Slavic_languages = {/wiki/East_Slavic_languages}
+/wiki/Away_colours = {/wiki/Kit_(association_football), /wiki/Away_colours}
+/wiki/Given_name = {/wiki/Patronymic, /wiki/Suffix_(name), /wiki/Given_name, /wiki/Eastern_Slavic_naming_customs, /wiki/Personal_name}
+/wiki/FC_Spartak_Moscow = {/wiki/Massimo_Carrera, /wiki/Soviet_Cup, /wiki/Otkritie_Arena, /wiki/HC_Spartak_Moscow, /wiki/Sergey_Rodionov, /wiki/Leonid_Fedun, /wiki/FC_Dynamo_Kyiv, /wiki/2017%E2%80%9318_FC_Spartak_Moscow_season, /wiki/FC_Sochaux-Montb%C3%A9liard, /wiki/Soviet_Top_League}
+/wiki/South_Slavic_languages = {/wiki/South_Slavic_languages, /wiki/East_Slavic_languages}
+/wiki/Forward_(association_football) = {/wiki/Forward_(association_football), /wiki/Association_football}
+/wiki/Viktor_Goncharenko = {/wiki/Viktor_Goncharenko, /wiki/Surname, /wiki/Eastern_Slavic_naming_customs, /wiki/Patronymic, /wiki/Kirill_Nababkin, /wiki/Russia, /wiki/PFC_CSKA_Moscow, /wiki/Belarus}
+/wiki/PFC_CSKA_Sofia = {/wiki/Serbia, /wiki/PFC_CSKA_Sofia, /wiki/Bulgaria}
+/wiki/Last_Name_(song) = {/wiki/Last_Name_(song)}
+/wiki/HC_Spartak_Moscow = {/wiki/Ukraine, /wiki/HC_Spartak_Moscow, /wiki/Moscow, /wiki/Russian_language, /wiki/FC_Spartak_Moscow, /wiki/Russia, /wiki/Soviet_Union, /wiki/Belarus}
+/wiki/Lineage_(anthropology) = {/wiki/Lineage_(anthropology)}
+/wiki/John_Terry = {/wiki/John_Terry, /wiki/Association_football}
+/wiki/Workers_of_the_world,_unite! = {/wiki/Workers_of_the_world,_unite!, /wiki/Soviet_Union}
+/wiki/1997_in_Russian_football = {/wiki/Moscow, /wiki/Russian_Premier_League, /wiki/Russian_Cup_(football), /wiki/FC_Spartak_Moscow, /wiki/Russia, /wiki/Eduard_Streltsov_Stadium, /wiki/2007_in_Russian_football, /wiki/Soviet_Union, /wiki/1997_in_Russian_football}
+/wiki/Bulgaria = {/wiki/Ukraine, /wiki/Russia, /wiki/Belarus, /wiki/Bulgaria}
+/wiki/Mononym = {/wiki/Lusophone, /wiki/Serbia, /wiki/Surname, /wiki/Mononym, /wiki/Matronymic, /wiki/Patronymic, /wiki/Given_name, /wiki/Roman_Empire}
+/wiki/Otkritie_Arena = {/wiki/HC_Spartak_Moscow, /wiki/Russian_language, /wiki/Moscow, /wiki/Russian_Premier_League, /wiki/VEB_Arena, /wiki/FC_Spartak_Moscow, /wiki/Otkritie_Arena, /wiki/Russia}
+/wiki/Soviet_(disambiguation) = {/wiki/Soviet_Union, /wiki/Soviet_(disambiguation)}
+/wiki/Russia = {/wiki/Russia}
+/wiki/John_Fitzgerald_Kennedy = {}
+/wiki/The_Internationale = {/wiki/Russia, /wiki/Soviet_Union, /wiki/The_Internationale}
+/wiki/Shooting_(association_football) = {/wiki/Shooting_(association_football), /wiki/Association_football}
+/wiki/Russian_Football_Union = {/wiki/Russian_Football_Union, /wiki/Russia_national_under-21_football_team, /wiki/Russian_Premier_League, /wiki/Moscow, /wiki/Russian_language, /wiki/Russian_Cup_(football), /wiki/Russia, /wiki/Soviet_Union, /wiki/Association_football}
+/wiki/Hispanophone = {/wiki/English-speaking_world, /wiki/Hispanophone}
+/wiki/CSKA_Moscow = {/wiki/Russia, /wiki/CSKA_Moscow, /wiki/PFC_CSKA_Moscow}
+/wiki/List_of_national_association_football_teams_by_nickname = {/wiki/List_of_national_association_football_teams_by_nickname, /wiki/Association_football}
+/wiki/English-speaking_world = {/wiki/English-speaking_world}
+/wiki/Red_Square = {/wiki/Red_Square, /wiki/Russia, /wiki/Moscow, /wiki/Spasskaya_Tower, /wiki/Moscow_Kremlin}
+/wiki/Luxembourg_national_under-21_football_team = {/wiki/Kit_(association_football), /wiki/Russia_national_under-21_football_team, /wiki/List_of_national_association_football_teams_by_nickname, /wiki/Bulgaria, /wiki/Football_(soccer), /wiki/Luxembourg_national_under-21_football_team, /wiki/UEFA, /wiki/Association_football, /wiki/Forward_(association_football), /wiki/Denmark_national_under-21_football_team}
+/wiki/P%C3%A9tange = {/wiki/World_War_II, /wiki/Football_(soccer), /wiki/P%C3%A9tange}
+/wiki/Personal_name = {/wiki/Ukraine, /wiki/Eastern_Slavic_naming_customs, /wiki/Patronymic, /wiki/Suffix_(name), /wiki/Russia, /wiki/Personal_name}
+/wiki/Yevgeni_Bushmanov = {/wiki/Russian_Premier_League, /wiki/Russia_national_under-21_football_team, /wiki/Russian_language, /wiki/Surname, /wiki/Eastern_Slavic_naming_customs, /wiki/Patronymic, /wiki/FC_Spartak_Moscow, /wiki/Russia, /wiki/Soviet_Union, /wiki/PFC_CSKA_Moscow}
+/wiki/Eastern_Slavic_naming_customs = {/wiki/Ukraine, /wiki/Bosnia_and_Herzegovina, /wiki/East_Slavic_languages, /wiki/Name, /wiki/Bulgaria, /wiki/Serbia, /wiki/South_Slavic_languages, /wiki/Russia, /wiki/Internal_passport_of_Russia, /wiki/Belarus}
+/wiki/State_Anthem_of_the_Soviet_Union = {/wiki/Flag_of_the_Soviet_Union, /wiki/Moscow, /wiki/State_Anthem_of_the_Soviet_Union, /wiki/Bolshoi_Theatre, /wiki/Russia, /wiki/Soviet_Union, /wiki/The_Internationale}
+/wiki/Kirill_Nababkin = {/wiki/Russia_national_under-21_football_team, /wiki/Moscow, /wiki/Surname, /wiki/FC_Moscow, /wiki/Eastern_Slavic_naming_customs, /wiki/Patronymic, /wiki/Right_back, /wiki/FC_Spartak_Moscow, /wiki/Soviet_Union, /wiki/PFC_CSKA_Moscow}
+/wiki/USSR_(disambiguation) = {/wiki/USSR_(disambiguation)}
+/wiki/CSKA_(disambiguation) = {/wiki/PFC_CSKA_Sofia, /wiki/PFC_CSKA_Moscow}
+/wiki/FC_Torpedo-ZIL = {/wiki/Kit_(association_football), /wiki/Russian_Premier_League, /wiki/Moscow, /wiki/Away_colours, /wiki/FC_Moscow, /wiki/Russia}
+/wiki/Belarus = {/wiki/Russia, /wiki/Belarus}
+/wiki/Moscow_International_Business_Center = {/wiki/Russia, /wiki/Moscow, /wiki/Moscow_International_Business_Center}
+/wiki/Outfield_player = {/wiki/Kit_(association_football), /wiki/Association_football}
+/wiki/Name = {/wiki/Name, /wiki/Eastern_Slavic_naming_customs}
+/wiki/Lusophone = {/wiki/English-speaking_world, /wiki/Lusophone, /wiki/Hispanophone}
+/wiki/Denmark_national_under-21_football_team = {/wiki/Kit_(association_football), /wiki/Russia_national_under-21_football_team, /wiki/Association_football, /wiki/Denmark_national_under-21_football_team, /wiki/UEFA, /wiki/Russia, /wiki/Bulgaria, /wiki/Forward_(association_football), /wiki/Belarus}
+/wiki/2016%E2%80%9317_Russian_Premier_League = {/wiki/Ukraine, /wiki/Viktor_Goncharenko, /wiki/CSKA_Moscow, /wiki/Russian_Premier_League, /wiki/2016%E2%80%9317_Russian_Premier_League, /wiki/Russia, /wiki/PFC_CSKA_Moscow, /wiki/Belarus}
+/wiki/VEB_Arena = {/wiki/CSKA_Moscow, /wiki/VEB_Arena, /wiki/PFC_CSKA_Moscow}
+/wiki/FC_Sochaux-Montb%C3%A9liard = {/wiki/World_War_II, /wiki/Kit_(association_football), /wiki/Bosnia_and_Herzegovina, /wiki/Away_colours, /wiki/Forward_(association_football), /wiki/FC_Sochaux-Montb%C3%A9liard}
+/wiki/World_War_II = {/wiki/Ukraine, /wiki/World_War_II, /wiki/Bulgaria, /wiki/Roman_Empire, /wiki/Russia, /wiki/Soviet_Union}
+/wiki/Moscow = {/wiki/Moscow_International_Business_Center, /wiki/Saint_Basil%27s_Cathedral, /wiki/Federal_cities_of_Russia, /wiki/Moscow_(disambiguation), /wiki/Bolshoi_Theatre, /wiki/Red_Square, /wiki/Cathedral_of_Christ_the_Saviour, /wiki/Spasskaya_Tower, /wiki/Moscow_State_University, /wiki/Moscow_Kremlin}
+/wiki/FC_Moscow = {/wiki/MMC_Norilsk_Nickel, /wiki/Alania_Vladikavkaz, /wiki/Russian_Cup_(football), /wiki/Eduard_Streltsov_Stadium, /wiki/FC_Torpedo-Metallurg, /wiki/FC_Torpedo-ZIL, /wiki/Amateur_Football_League, /wiki/2007_in_Russian_football, /wiki/1997_in_Russian_football, /wiki/Football_(soccer)}
+/wiki/Suriname = {/wiki/Bosnia_and_Herzegovina, /wiki/Surname, /wiki/Suriname, /wiki/Russia}
+/wiki/Association_football = {/wiki/World_War_II, /wiki/Kit_(association_football), /wiki/Association_football, /wiki/English-speaking_world, /wiki/Roman_Empire, /wiki/Sport}
+/wiki/Didier_Drogba = {/wiki/Didier_Drogba, /wiki/Forward_(association_football), /wiki/John_Terry, /wiki/Association_football}
+/wiki/FC_Torpedo-Metallurg = {/wiki/Kit_(association_football), /wiki/Russian_Premier_League, /wiki/Moscow, /wiki/Away_colours, /wiki/FC_Moscow, /wiki/Russia}
+/wiki/Moscow_(disambiguation) = {/wiki/Moscow, /wiki/Moscow_(disambiguation)}
+/wiki/Moscow_State_University = {/wiki/Ukraine, /wiki/Russia, /wiki/Moscow, /wiki/Red_Square, /wiki/Moscow_State_University}
+/wiki/Patronymic_surname = {/wiki/Patronymic_surname, /wiki/Matronymic, /wiki/Patronymic, /wiki/Given_name, /wiki/Suffix_(name), /wiki/Personal_name}
+/wiki/Russian_Premier_League = {/wiki/Ukraine, /wiki/Viktor_Goncharenko, /wiki/CSKA_Moscow, /wiki/Russian_Premier_League, /wiki/VEB_Arena, /wiki/Russia, /wiki/PFC_CSKA_Moscow}
+/wiki/State_emblem_of_the_Soviet_Union = {/wiki/Soviet_Union, /wiki/Flag_of_the_Soviet_Union}
+/wiki/Patronymic_(disambiguation) = {/wiki/Patronymic, /wiki/Patronymic_(disambiguation)}
+/wiki/2007_in_Russian_football = {/wiki/2007_in_Russian_football, /wiki/Russia, /wiki/Moscow, /wiki/Russian_Premier_League, /wiki/Russian_Cup_(football)}
+/wiki/Flag_of_the_Soviet_Union = {/wiki/Russia, /wiki/Soviet_Union, /wiki/Flag_of_the_Soviet_Union, /wiki/Moscow_Kremlin}
+/wiki/Saint_Basil%27s_Cathedral = {/wiki/Saint_Basil%27s_Cathedral, /wiki/Moscow, /wiki/Red_Square, /wiki/Moscow_Kremlin, /wiki/Russia, /wiki/Spasskaya_Tower}
+/wiki/Sergey_Rodionov = {/wiki/Russian_Premier_League, /wiki/Moscow, /wiki/Russian_language, /wiki/FC_Spartak_Moscow, /wiki/Sergey_Rodionov, /wiki/Russia, /wiki/Soviet_Union, /wiki/Forward_(association_football)}
+/wiki/Right_back = {/wiki/Outfield_player, /wiki/Passing_(association_football), /wiki/John_Terry, /wiki/Association_football, /wiki/Didier_Drogba, /wiki/Tackle_(football_move), /wiki/Marking_(association_football), /wiki/Forward_(association_football), /wiki/Shooting_(association_football), /wiki/Sport}
+/wiki/Tackle_(football_move) = {/wiki/Tackle_(football_move), /wiki/Association_football}
+/wiki/Marking_(association_football) = {/wiki/Marking_(association_football), /wiki/Association_football}
+/wiki/Football_(soccer) = {/wiki/World_War_II, /wiki/Kit_(association_football), /wiki/Association_football, /wiki/English-speaking_world, /wiki/Roman_Empire, /wiki/Tackle_(football_move), /wiki/Sport}
+/wiki/PFC_CSKA_Moscow = {/wiki/Viktor_Goncharenko, /wiki/PFC_CSKA_Sofia, /wiki/Kit_(association_football), /wiki/Away_colours, /wiki/CSKA_Moscow, /wiki/Russian_Premier_League, /wiki/VEB_Arena, /wiki/Yevgeni_Giner, /wiki/2016%E2%80%9317_Russian_Premier_League, /wiki/CSKA_(disambiguation)}
+/wiki/Soviet_Top_League = {/wiki/World_War_II, /wiki/Ukraine, /wiki/Sergey_Rodionov, /wiki/CSKA_Moscow, /wiki/Russian_language, /wiki/FC_Spartak_Moscow, /wiki/Russia, /wiki/Soviet_Union, /wiki/PFC_CSKA_Moscow, /wiki/Belarus}
+
+
+Section b:
+/wiki/Ukraine: 0.0197888449788
+/wiki/Surname: 0.00457681382541
+/wiki/Johann_Sebastian_Bach: 0.0100769322349
+/wiki/Russian_Cup_(football): 0.00481092849492
+/wiki/Patronymic: 0.014482219915
+/wiki/Patronym_(disambiguation): 0.00371645809707
+/wiki/Leonid_Fedun: 0.00359932847395
+/wiki/Spasskaya_Tower: 0.00945775766646
+/wiki/Byname: 0.0100769322349
+/wiki/Bosnia_and_Herzegovina: 0.00664885732764
+/wiki/Russia_national_under-21_football_team: 0.00422240555087
+/wiki/MMC_Norilsk_Nickel: 0.00363004701461
+/wiki/Cathedral_of_Christ_the_Saviour: 0.0056081017899
+/wiki/Eduard_Streltsov_Stadium: 0.00393619555801
+/wiki/Suffix_(name): 0.00966043309705
+/wiki/Soviet_Union: 0.0162569889213
+/wiki/Sport: 0.0213428061644
+/wiki/Kit_(association_football): 0.0436778397746
+/wiki/Matronymic: 0.00556746397456
+/wiki/Serbia: 0.0069058158284
+/wiki/Passing_(association_football): 0.00447327059823
+/wiki/Roman_Empire: 0.0282596802049
+/wiki/Last_Name_(song): 0.0100769322349
+/wiki/Copenhagen: 0.00364975178486
+/wiki/Johnson: 0.00628939062677
+/wiki/Federal_cities_of_Russia: 0.00602503215503
+/wiki/Soviet_Cup: 0.00385333897347
+/wiki/Alania_Vladikavkaz: 0.00299478878706
+/wiki/Amateur_Football_League: 0.00299478878706
+/wiki/2017%E2%80%9318_FC_Spartak_Moscow_season: 0.00317940681865
+/wiki/List_of_FIFA_country_codes: 0.00391078837991
+/wiki/Massimo_Carrera: 0.00377996143995
+/wiki/Russian_language: 0.00862851628799
+/wiki/Yevgeni_Giner: 0.00558057134073
+/wiki/Bolshoi_Theatre: 0.00616472380835
+/wiki/UEFA: 0.00440836387776
+/wiki/FC_Dynamo_Kyiv: 0.00351657397883
+/wiki/Internal_passport_of_Russia: 0.0110563200574
+/wiki/Family_name: 0.00371645809707
+/wiki/CCCP_(disambiguation): 0.0128023064238
+/wiki/Denmark_national_under-21_football_team: 0.00349584658911
+/wiki/East_Slavic_languages: 0.0204512966102
+/wiki/Away_colours: 0.00762417275719
+/wiki/Given_name: 0.00903343104056
+/wiki/FC_Spartak_Moscow: 0.00681005879927
+/wiki/South_Slavic_languages: 0.00613538898715
+/wiki/Hispanophone: 0.00620211241326
+/wiki/Viktor_Goncharenko: 0.0058093381161
+/wiki/PFC_CSKA_Sofia: 0.00638732784976
+/wiki/Denmark: 0.00322394740996
+/wiki/HC_Spartak_Moscow: 0.00381839062476
+/wiki/Lineage_(anthropology): 0.0123881936511
+/wiki/John_Terry: 0.00542214617968
+/wiki/Moscow_Kremlin: 0.00844130340859
+/wiki/Workers_of_the_world,_unite!: 0.00590875681115
+/wiki/1997_in_Russian_football: 0.00324736133536
+/wiki/Mononym: 0.00331296402245
+/wiki/Otkritie_Arena: 0.0034842814451
+/wiki/Soviet_(disambiguation): 0.00590875681115
+/wiki/Russia: 0.154778363365
+/wiki/John_Fitzgerald_Kennedy: 0.0100769322349
+/wiki/The_Internationale: 0.00556622018439
+/wiki/Shooting_(association_football): 0.00447327059823
+/wiki/Russian_Football_Union: 0.00358574808004
+/wiki/Forward_(association_football): 0.00809767773118
+/wiki/CSKA_Moscow: 0.0087069101696
+/wiki/List_of_national_association_football_teams_by_nickname: 0.00495991909225
+/wiki/English-speaking_world: 0.0337437758288
+/wiki/Red_Square: 0.00647364532917
+/wiki/Luxembourg_national_under-21_football_team: 0.00322394740996
+/wiki/P%C3%A9tange: 0.00391078837991
+/wiki/Personal_name: 0.00740633204025
+/wiki/Yevgeni_Bushmanov: 0.00299827109126
+/wiki/Eastern_Slavic_naming_customs: 0.00877419022579
+/wiki/State_Anthem_of_the_Soviet_Union: 0.00426743547468
+/wiki/Kirill_Nababkin: 0.00321101978786
+/wiki/USSR_(disambiguation): 0.0128023064238
+/wiki/CSKA_(disambiguation): 0.00362737137146
+/wiki/FC_Torpedo-ZIL: 0.00299478878706
+/wiki/Belarus: 0.0232755445374
+/wiki/Moscow_International_Business_Center: 0.0056081017899
+/wiki/Association_football: 0.0258260082752
+/wiki/Outfield_player: 0.00290762588885
+/wiki/Name: 0.00857076473432
+/wiki/Lusophone: 0.00432125742058
+/wiki/2016%E2%80%9317_Russian_Premier_League: 0.00438944385256
+/wiki/VEB_Arena: 0.00631803022996
+/wiki/FC_Sochaux-Montb%C3%A9liard: 0.00359932847395
+/wiki/World_War_II: 0.0106621688886
+/wiki/Moscow: 0.0228120286035
+/wiki/FC_Moscow: 0.0041726583479
+/wiki/Suriname: 0.00366433899452
+/wiki/Bulgaria: 0.0141511769985
+/wiki/Didier_Drogba: 0.00352439501679
+/wiki/FC_Torpedo-Metallurg: 0.00299478878706
+/wiki/Moscow_(disambiguation): 0.006614684163
+/wiki/Moscow_State_University: 0.00499947058773
+/wiki/Patronymic_surname: 0.00462804215878
+/wiki/Russian_Premier_League: 0.00911577178386
+/wiki/State_emblem_of_the_Soviet_Union: 0.00384069192721
+/wiki/Patronymic_(disambiguation): 0.00571762784239
+/wiki/2007_in_Russian_football: 0.00377600155275
+/wiki/Flag_of_the_Soviet_Union: 0.00680203351423
+/wiki/Saint_Basil%27s_Cathedral: 0.00486740910048
+/wiki/Sergey_Rodionov: 0.00403291085154
+/wiki/Right_back: 0.00292747408785
+/wiki/Tackle_(football_move): 0.00521508853932
+/wiki/Marking_(association_football): 0.00447327059823
+/wiki/Football_(soccer): 0.00482181661705
+/wiki/PFC_CSKA_Moscow: 0.0132095524107
+/wiki/Soviet_Top_League: 0.00397236937244

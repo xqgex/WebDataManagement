@@ -1,0 +1,21 @@
+<!DOCTYPE catalog [ <!-- define the root to be 'catalog' -->
+        <!ELEMENT catalog (book)*> <!-- 'catalog' element can have several children, of type 'book' -->
+        <!-- Each 'book' must have the children specified in brackets -->
+        <!ELEMENT book (author, title, genre, shops, publish_date, description)>
+        <!-- Each of the following elements contains a single TEXT child only -->
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT genre (#PCDATA)>
+        <!ELEMENT publish_date (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!-- **************** -->
+        <!ELEMENT shops (shop)*> <!-- Each 'shops' element can have several 'shop' children -->
+        <!ELEMENT shop (price)> <!-- Each 'shop' element must have several a single 'price' child -->
+        <!-- The following element contains a single TEXT child only -->
+        <!ELEMENT price (#PCDATA)>
+        <!-- **************** -->
+
+        <!-- Defines the attributes of 'shop' and 'book' elements -->
+        <!ATTLIST shop name CDATA #REQUIRED>
+        <!ATTLIST book id CDATA #REQUIRED>
+]>

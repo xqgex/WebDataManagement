@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="">
+<head>
+    <title>South Park</title>
+    <style>
+.WikiaMainContent{width:-webkit-calc(100% - 320px);width:calc(100% - 320px)}
+body{overflow:visible}
+.WikiaPage .WikiaArticle{font-size:14px;line-height:22px}
+.WikiaPage .WikiaArticle{font-size:16px;line-height:26px}
+#WikiaAdInContentPlaceHolder{position:absolute}
+#WikiaAdInContentPlaceHolder.rail-sticky-module{position:static}
+.wds-banner-notification__container{width:728px}
+.wikia-main-page-tag-lcs,.main-page-tag-lcs-exploded{width:100%}
+
+    </style>
+    <style>
+.WikiaPageContentWrapper{display:block !important}
+
+#WikiaArticle{min-height:1px !important;height:auto !important;overflow:visible !important}
+#WikiaArticle p{line-height:1.8em;margin:0.4em 0 0.5em !important}
+#WikiaArticle p + p{margin:1em 0 !important}
+header__categories,#WikiaArticleFooter,#WikiaRail,#WikiaBar,#WikiaFooter,#WikiaSearch,#WikiaTopAds{display:none !important}
+.WikiaArticle .printfooter{display:block !important}
+ad .provider-container{padding-bottom:0 !important;width:320px}
+.WikiaArticle .table-is-wide table{float:none !important;margin-top:0 !important}
+
+    </style>
+    <style>
+#WikiaPage{background:#fff;border:none;padding:0;margin:0;width:auto}
+#WikiaArticle .thumbinner div{background:#fff;border:none}
+#articleCategories{background:#fff}
+.WikiaMainContent{width:100%}
+.main-page-tag-rcs{width:300px}
+body.ve .WikiaSiteWrapper{pointer-events:none}
+body.ve .ve-ui-overlay{pointer-events:all}
+body.ve .WikiaMainContent{box-shadow:0 0 0 1000vw rgba(0,0,0,0.5);padding:0;pointer-events:all;z-index:5000100}
+body.ve .ve-init-mw-viewPageTarget-toolbar{margin:0}
+body.ve .WikiaArticle{min-height:0;padding:0 10px}body.ve .WikiaArticleFooter,body.ve .CategorySelect.articlePage{border-color:rgba(0,0,0,0.5);margin:0;padding:10px;pointer-events:none;position:relative}
+body.ve .WikiaArticleFooter::after,body.ve .CategorySelect.articlePage::after{background:rgba(0,0,0,0.5);bottom:0;content:' ';display:block;left:0;position:absolute;right:0;top:0}
+.WikiaPage h4{font-size:15px;line-height:22px}
+.ad-centered-wrapper > div > div{display:inline-block}
+#WikiaAdInContentPlaceHolder #INCONTENT_BOXAD_1{position:relative;text-align:center;width:300px}
+#WikiaAdInContentPlaceHolder.rail-sticky-module{position:static;position:-webkit-sticky;position:sticky;top:65px}
+#ext-wikia-adEngine-template-modal > section{overflow:hidden;padding:0px}
+#ext-wikia-adEngine-template-modal > section > div{overflow:hidden}
+#ext-wikia-adEngine-template-modal > header .close-counter{float:right;font-size:17px}
+#WikiaArticleMsg{display:none}
+.EditPageHeader > h2{display:inline-block;float:left}
+.oasis-one-column .WikiaMainContent{width:100%}
+
+    </style>
+    <style>
+a,abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,.WikiaRail .module h3,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,time,ul,var,video{border:0;font-style:inherit;font-weight:inherit;margin:0;padding:0;vertical-align:baseline}article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}a,ins{text-decoration:none}ul,ol{list-style:none}q:after,q:before{content:""}
+#WikiaMainContent, #wpUploadDescription textarea, .category-gallery-item .snippet .text, .WikiaArticle i, .WikiaArticle em, a.wikia-button, .wikia-single-button a, .wikia-menu-button, input, .button, button, select {font-family: 'Rubik',sans-serif;}
+.full-screen-page #mw-content-text,.full-screen-page .WikiaArticle,.full-screen-page .WikiaPage,.full-screen-page .WikiaPageContentWrapper,.full-screen-page .WikiaSiteWrapper{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-box-orient:vertical;-webkit-box-orient:vertical;-ms-flex-direction:column;-webkit-flex-direction:column;flex-direction:column;-webkit-flex:1;-ms-flex:1;flex:1}
+.WikiaPage .WikiaPageContentWrapper{zoom:1;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;position:relative}
+.WikiaPage .WikiaPageContentWrapper:after{clear:both;content:" ";display:block;height:0;overflow:hidden;visibility:hidden}
+.WikiaPage .page-header{-webkit-box-align:start;-webkit-align-items:flex-start;align-items:flex-start;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;padding:16px 0 12px;position:relative;width:100%;z-index:4}
+.WikiaPage .page-header .wds-dropdown__content{background-color:#fff;border-color:#c3c3c3;color:#3a3a3a}
+.WikiaPage .page-header .wds-dropdown__content:not(.wds-is-not-scrollable) .wds-list{background-image:radial-gradient(farthest-side at 50% 0,rgba(26,26,26,0.12),transparent),radial-gradient(farthest-side at 50% 100%,rgba(26,26,26,0.12),transparent);background-position:0 0,0 100%;background-repeat:no-repeat;background-size:100% 9px;max-height:270px;overflow-y:auto;position:relative;z-index:1}
+.WikiaPage .page-header .wds-dropdown__content:not(.wds-is-not-scrollable) .wds-list::after,.WikiaPage .page-header .wds-dropdown__content:not(.wds-is-not-scrollable) .wds-list::before{background-color:#fff;content:'';display:block;height:30px;margin:0 0 -30px;position:relative;z-index:-1}
+.WikiaPage .page-header .wds-dropdown__content:not(.wds-is-not-scrollable) .wds-list::after{background-color:#fff;margin:-29px 0 0}
+.WikiaPage .page-header .wds-dropdown__content .wds-list.wds-is-linked li > a{color:#3a3a3a}
+.WikiaPage .page-header .wds-dropdown__content .wds-list.wds-is-linked li:hover > a{background-color:rgba(1,72,194,0.1);color:#0148c2}
+.WikiaPage .page-header .wds-dropdown__content .wds-list.wds-is-linked .wds-dropdown-level-2 .wds-dropdown-level-2__content{background-color:#fff;border-color:#c3c3c3;color:#3a3a3a}
+.WikiaPage .page-header .wds-dropdown::after{border-bottom-color:#fff}
+.WikiaPage .page-header .wds-dropdown::before{border-bottom-color:#c3c3c3}
+.WikiaPage .page-header button{background-image:none}
+.WikiaPage .page-header .wds-button{background-color:#43a047;border-color:#43a047;color:#fff}
+.WikiaPage .page-header .wds-button:focus:not(:disabled),.WikiaPage .page-header .wds-button:hover:not(:disabled),.WikiaPage .page-header .wds-button:active,.WikiaPage .page-header .wds-button.wds-is-active{background-color:#7fca83;border-color:#7fca83}
+.WikiaPage .page-header .wds-button.wds-is-secondary{background-color:transparent;border-color:#3a3a3a;color:#3a3a3a}
+.WikiaPage .page-header .wds-button.wds-is-secondary:focus:not(:disabled),.WikiaPage .page-header .wds-button.wds-is-secondary:hover:not(:disabled),.WikiaPage .page-header .wds-button.wds-is-secondary:active,.WikiaPage .page-header .wds-button.wds-is-secondary.wds-is-active{background-color:transparent;border-color:#6d6d6d;color:#6d6d6d}
+.WikiaPage .page-header .wds-button.wds-is-text{background-color:transparent;color:#3a3a3a}
+.WikiaPage .page-header .wds-button.wds-is-text:focus:not(:disabled),.WikiaPage .page-header .wds-button.wds-is-text:hover:not(:disabled),.WikiaPage .page-header .wds-button.wds-is-text:active,.WikiaPage .page-header .wds-button.wds-is-text.wds-is-active{background-color:transparent;color:#6d6d6d}
+.WikiaPage .page-header .wds-button-group > .wds-button:not(.wds-is-secondary):not(:last-child){border-right-color:#f4f4f4}
+.WikiaPage .page-header .wds-button-group > .wds-button:not(.wds-is-secondary):not(:first-child){border-left-color:#f4f4f4}
+.WikiaPage .page-header .wds-button-group > .wds-dropdown:not(:last-child) .wds-button{border-right-color:#f4f4f4}
+.WikiaPage .page-header .wds-button-group > .wds-dropdown:not(:first-child) .wds-button{border-left-color:#f4f4f4}
+.WikiaPage .page-header__counter{color:#3a3a3a;padding-bottom:12px;font-size:14px;font-weight:bold;text-align:right}
+.WikiaPage .page-header__contribution{-webkit-box-align:end;-webkit-align-items:flex-end;align-items:flex-end;-webkit-align-self:stretch;-ms-align-self:stretch;align-self:stretch;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-box-orient:vertical;-webkit-box-orient:vertical;-ms-flex-direction:column;-webkit-flex-direction:column;flex-direction:column;-ms-flex-negative:0;-webkit-flex-shrink:0;-moz-flex-shrink:0;flex-shrink:0;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;margin-left:20px}
+.WikiaPage .page-header__contribution-buttons > *:not(:last-child){margin-right:3px}
+.WikiaPage .page-header__languages{padding-bottom:12px}
+.WikiaPage .page-header__languages .wds-dropdown__toggle-chevron{vertical-align:text-top}
+.WikiaPage .page-header__main{-webkit-align-self:flex-end;-ms-align-self:flex-end;align-self:flex-end;-webkit-box-flex:1;-moz-box-flex:1;-ms-flex-positive:1;box-flex:1;-webkit-flex-grow:1;-moz-flex-grow:1;flex-grow:1;max-width:100%;min-width:0}
+.WikiaPage .page-header__categories{-webkit-box-align:start;-webkit-align-items:flex-start;align-items:flex-start;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;font-size:12px}
+.WikiaPage .page-header__categories-in{font-weight:600;padding-right:4px;white-space:nowrap}
+.WikiaPage .page-header__categories-dropdown{padding-bottom:12px}
+.WikiaPage .page-header__categories-dropdown-content{font-style:normal;overflow-x:hidden;width:250px}
+.WikiaPage .page-header__categories-dropdown li{white-space:normal}
+.WikiaPage .page-header__categories-links{color:#0148c2;font-style:italic;line-height:16px;overflow-wrap:break-word;word-wrap:break-word;-ms-word-break:break-all;word-break:break-word}
+.WikiaPage .page-header__categories-links > a:last-child{display:inline-block;padding-bottom:10px}
+.WikiaPage .page-header__title{-webkit-box-align:end;-webkit-align-items:flex-end;align-items:flex-end;color:#3a3a3a;display:inline-block;font-size:36px;font-weight:bold;line-height:1;max-width:100%;word-wrap:break-word}
+.WikiaPage .page-header__title i{font-style:italic}
+.WikiaPage .page-header__separator{background-color:#c3c3c3;border:0;height:1px;margin-bottom:18px;margin-top:0;width:100%}
+.WikiaPage .page-header__subtitle{margin-top:6px}
+.WikiaPage .page-header__subtitle-back-icon{fill:#0148c2;padding-right:2px;transform:rotate(270deg);vertical-align:text-top}
+.WikiaPage .page-header__page-subtitle{margin-top:6px}
+.WikiaPage .page-header__page-subtitle .removed{color:rgba(58,58,58,0.6)}
+.WikiaPage .page-header__subtitle-blog-post{-webkit-box-align:center;-webkit-align-items:center;align-items:center;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex}
+.WikiaPage .page-header__blog-post-details{margin-left:6px}
+.WikiaPage .page-header .wds-avatar{border-color:#c3c3c3}
+.noprint,.wikia-ad,#globalNavigation,.wds-global-navigation-wrapper,.wds-community-header,.wds-global-footer,.page-header__contribution,.page-
+.WikiaMainContent{position:relative;width:680px;z-index:1}
+.oasis-one-column .WikiaMainContent{width:1000px}
+.oasis-one-column .WikiaMainContent.grid-6{width:980px}
+.WikiaMainContent a.new,.WikiaMainContent a.new:visited{color:#CC2200}
+.ContentWarning #WikiaMainContent,.ContentWarning #WikiaRailWrapper{display:none}
+.wikia-main-page-tag-lcs,.main-page-tag-lcs-exploded,.WikiaMainContent{width:-webkit-calc(100% - 320px);width:calc(100% - 320px)}
+.WikiaArticle{padding:0}
+.WikiaPage .WikiaArticle li{line-height:inherit}
+.WikiaPage .WikiaArticle .infobox{font-size:14px;line-height:22px}
+.WikiaPage .WikiaArticle li{line-height:inherit}
+.WikiaArticle .forum-activity-module{zoom:1}
+.WikiaArticle .forum-activity-module:after{clear:both;content:" ";display:block;height:0;overflow:hidden;visibility:hidden}
+.WikiaArticle .pi-error-info{background-color:#f33;color:white;font-size:18px;line-height:28px;margin:0;padding:30px 50px}
+.WikiaArticle .pi-debug{background-color:gainsboro;font-family:monospace;list-style:none;margin:0;width:100%}
+.WikiaArticle .pi-debug li{margin:0}
+.WikiaArticle .pi-debug .error{font-size:inherit}
+#WikiaArticle.floating,.WikiaTopAds.floating{z-index:12}#WikiaArticle.floating .wikia-ad,.WikiaTopAds.floating .wikia-ad{bottom:45px;margin-bottom:0;position:fixed;right:20px;transition:margin-bottom 0.4s}#WikiaArticle.floating .wikia-ad .video-player,#WikiaArticle.floating .wikia-ad iframe,.WikiaTopAds.floating .wikia-ad .video-player,.WikiaTopAds.floating .wikia-ad iframe{width:320px}#WikiaArticle.floating .wikia-ad .floating-close-button,.WikiaTopAds.floating .wikia-ad .floating-close-button{display:block}#WikiaArticle.floating.with-article-video .wikia-ad,.WikiaTopAds.floating.with-article-video .wikia-ad{margin-bottom:300px;transition:margin-bottom 0.4s}#WikiaArticle.floating{z-index:initial}#WikiaArticle.floating .wikia-ad{width:320px;z-index:12}#WikiaArticle.floating .wikia-
+.WikiaPage.WikiaGrid .WikiaArticle{padding:0}
+.WikiaArticleFooter{padding:10px}
+.WikiaArticle,.wikia-infobox{font-size:13px;line-height:21px}
+.WikiaArticle{min-height:250px;overflow:hidden;padding:0 10px;position:relative;word-wrap:break-word;z-index:1}
+.WikiaArticle::after{clear:both;content:'';display:block}
+.WikiaArticle h1,.WikiaArticle .WikiaRail .module h3,.WikiaRail .module .WikiaArticle h3,.WikiaArticle h2,.WikiaArticle h3,.WikiaArticle h4,.WikiaArticle h5,.WikiaArticle h6{margin:.5em 0 .2em}
+.WikiaArticle h1,.WikiaArticle .WikiaRail .module h3,.WikiaRail .module .WikiaArticle h3{font-size:24px}
+.WikiaArticle h2{border-bottom:solid 1px #c3c3c3;font-size:18px;margin-top:30px;overflow:hidden;padding-bottom:3px}
+.WikiaArticle h3{font-size:16px;overflow:hidden}
+.WikiaArticle h4{font-size:14px}
+.WikiaArticle h5{font-size:12px}
+.WikiaArticle h6{font-size:11px}
+.WikiaArticle .editsection{float:none;font-size:13px;margin-left:10px;vertical-align:baseline}
+.WikiaArticle .editsection img{vertical-align:text-bottom}
+.WikiaArticle h1 .editsection,.WikiaArticle .WikiaRail .module h3 .editsection,.WikiaRail .module .WikiaArticle h3 .editsection,.WikiaArticle h5 .editsection,.WikiaArticle h6 .editsection{display:none}
+.WikiaArticle .noarticletext{border:1px solid #d9d9d9;padding:0 13px}
+.WikiaArticle b,.WikiaArticle strong{font-weight:bold}
+.WikiaArticle i,.WikiaArticle em{font-style:italic}
+.WikiaArticle sup{font-size:11px;line-height:0;vertical-align:super}
+.WikiaArticle sub{font-size:11px;line-height:0;vertical-align:sub}
+.WikiaArticle ul,.WikiaArticle ol{margin:.4em 0 .5em 2.5em}
+.WikiaArticle ol{list-style:decimal}
+.WikiaArticle ol.special{margin-left:3.2em}
+.WikiaArticle ul{list-style:square}
+.WikiaArticle li{line-height:20px;margin:3px 0}
+.WikiaArticle dl{margin:1em 0}
+.WikiaArticle dt{font-weight:bold;margin-bottom:1px}
+.WikiaArticle dd{margin-bottom:1px;margin-left:24px}
+.WikiaArticle img{vertical-align:middle}
+.WikiaArticle blockquote{margin:12px 40px}
+.WikiaArticle .center{text-align:center;width:100%}
+.WikiaArticle .center *{margin-left:auto;margin-right:auto}
+.WikiaArticle .thumbborder{border:1px solid #d9d9d9}
+.WikiaArticle .floatright{border:0;clear:right;float:right;margin:0 0 10px 20px;position:relative}
+.WikiaArticle .floatleft{border:0;clear:left;float:left;margin:0 20px 10px 0;position:relative}
+.WikiaArticle .thumbinner{background-color:#e7e7e7; background-image:-moz-linear-gradient(top,#f4f4f4 0,#e7e7e7 100%);background-image:-webkit-gradient(linear,0% 0%,0% 100%,color-stop(0,#f4f4f4),color-stop(100%,#e7e7e7));background-image:-o-linear-gradient(top,#f4f4f4 0,#e7e7e7 100%);background-image:-ms-linear-gradient(top,#f4f4f4 0,#e7e7e7 100%);  border:1px solid #d9d9d9;overflow:hidden;padding:3px;text-align:center}
+.WikiaArticle .thumbcaption{line-height:18px;padding:4px 1px 0;text-align:left}
+.WikiaArticle .tright{clear:right;float:right;margin:0 0 16px 16px}
+.WikiaArticle .tleft{clear:left;float:left;margin:0 16px 16px 0}
+.WikiaArticle .magnify{float:right;margin-top:4px}
+.WikiaArticle .picture-attribution{display:block;font-size:11px;margin-right:16px;text-align:left}
+.WikiaArticle .picture-attribution .avatar{margin-right:3px;vertical-align:middle}
+.WikiaArticle .toc{background-color:transparent;border:1px solid #d9d9d9;border-collapse:separate;margin:1em 0;padding:5px}
+.WikiaArticle .toc ul{list-style:none;margin:0}
+.WikiaArticle .toc ul ul{margin-left:2em}
+.WikiaArticle .toc ul li{margin:0}
+.WikiaArticle #toctitle{text-align:center}
+.WikiaArticle #toctitle h2{border:0;display:inline;font-size:14px}
+.WikiaArticle #toctitle .toctoggle{font-size:12px}
+.WikiaArticle p{margin:.4em 0 .5em}
+.WikiaArticle p + p{margin:1em 0}
+.WikiaArticle pre{background-color:#e7e7e7;border:1px solid #c3c3c3;line-height:14px;overflow:auto;padding:12px;word-wrap:normal}
+.WikiaArticle .printfooter{display:none}
+.WikiaArticle a.external:after,.WikiaArticle a[href^='gopher://']:after{background-image:url("https://slot1-images.wikia.nocookie.net/__cb1520515098/common/skins/shared/images/sprite.png");background-position:-1198px 0;background-repeat:no-repeat;content:'';display:inline-block;height:16px;margin-left:3px;vertical-align:text-top;width:10px}
+.WikiaArticle .plainlinks a{background-image:none;padding-right:0}
+.WikiaArticle .plainlinks a:after{display:none}
+.WikiaArticle #filetoc{background-color:transparent;border:1px solid #d9d9d9;font-size:12px;margin-bottom:5px;margin-left:0;margin-right:0;padding:5px;text-align:center}
+.WikiaArticle #filetoc li{display:inline;list-style-type:none;padding-right:23px}
+.WikiaArticle .mw_metadata th,.WikiaArticle .mw_metadata td{background-color:transparent;border:1px solid #c3c3c3}
+.WikiaArticle .references > li:target{background-color:#d0daed}
+.WikiaArticle ul.gallery{margin-left:0}
+.WikiaArticle div.gallerybox div.thumb,.WikiaArticle li.gallerybox div.thumb{background:#e7e7e7;border:1px solid #d9d9d9}
+.WikiaArticle li.gallerybox{border:1px solid #c3c3c3}
+.WikiaArticle fieldset{border:solid 1px #0148c2;margin:1em 0;padding:0 1em 1em}
+.WikiaArticle fieldset legend{cursor:pointer;padding:7px}
+.WikiaArticle fieldset.collapsible{height:auto}
+.WikiaArticle fieldset.collapsible legend::before{content:"\25b4\00a0"}
+.WikiaArticle fieldset.collapsible.collapsed{height:25px;overflow:hidden}
+.WikiaArticle fieldset.collapsible.collapsed .rc-fieldset-content{visibility:hidden}
+.WikiaArticle fieldset.collapsible.collapsed legend::before{content:"\25be\00a0"}
+.WikiaArticle #mw-pages h3{font-weight:bold}
+.WikiaArticle #mw-pages ul{margin-left:16px}
+.WikiaArticle #pagehistory li{border-style:none}
+.WikiaArticle #pagehistory li.selected{background-color:#e7e7e7;border-style:dashed}
+.diff-article-content body.mainpage .WikiaArticle{margin-right:0}
+.WikiaArticle .fbconnect-synced-profile{border-bottom:solid 1px #c3c3c3;margin-bottom:5px;padding-bottom:5px}
+.WikiaArticle .fbconnect-synced-profile th{padding-right:10px;text-align:right;vertical-align:top;width:25%}
+.WikiaArticle .fbconnect-synced-profile td{margin-left:8px;padding-right:10px}
+.WikiaArticle .wikiaPlaceholder{vertical-align:bottom}
+.WikiaArticle .wikiaPlaceholder > div{margin:.5em 1.4em 1.2em 0;text-align:center}
+.WikiaArticle .wikiaPlaceholder > div.tright{margin:.5em 0 1.2em 1.4em}
+.WikiaArticle .wikiaPlaceholder > div.tcenter{margin:.5em auto 1.2em}
+.WikiaArticle .wikiaPlaceholder > div a{position:relative}
+.WikiaArticle .fullMedia{word-wrap:break-word}
+.WikiaArticle .inline-video{display:inline-block}
+.WikiaArticle ul[class*='block-grid-']{margin:0;padding:0}
+.ns-1200 .WikiaArticle,.ns-1201 .WikiaArticle,.ns-2000 .WikiaArticle,.WikiaHome .WikiaArticle{overflow:visible}
+.WikiaArticle .infobox .article-thumb,.WikiaArticle .infobox .article-thumb.tright,.WikiaArticle .infobox .article-thumb.tleft,.WikiaArticle .wikia-infobox .article-thumb,.WikiaArticle .wikia-infobox .article-thumb.tright,.WikiaArticle .wikia-infobox .article-thumb.tleft,.WikiaArticle .infobox-table .article-thumb,.WikiaArticle .infobox-table .article-thumb.tright,.WikiaArticle .infobox-table .article-thumb.tleft{float:none;margin:0 auto}
+.WikiaArticleInterlang{clear:both;margin:10px;padding:10px}
+.WikiaArticleInterlang h3{float:left;font-size:inherit;margin-right:5px}
+.WikiaArticleInterlang ul{list-style:none}
+.WikiaArticleInterlang ul li{border-left:1px solid #c3c3c3;display:inline-block;line-height:24px;margin-bottom:6px;padding-left:5px;padding-right:5px}
+.WikiaArticleInterlang ul li:first-child{border:0;padding-left:0}
+.WikiaArticleComments.loading{background:url("https://slot1-images.wikia.nocookie.net/__cb1520515098/common/skins/common/images/ajax.gif") no-repeat 50% 50%;border-top:1px solid #f4f4f4;height:16px;margin:10px;padding-top:10px}
+.ve .WikiaArticle{overflow:visible;z-index:auto}
+.WikiaArticle .table-is-wide{clear:both;margin-top:1em;position:relative}
+.WikiaArticle .table-is-wide:before{box-shadow:inset -15px 0 20px -15px #949494;content:"";height:100%;pointer-events:none;position:absolute;right:0;width:20px;z-index:2}
+.WikiaArticle .table-is-wide .table-scrollable{overflow:auto}
+.WikiaArticleAfterComments{font-size:13px;line-height:21px;padding:0 10px;position:relative;z-index:1}
+.WikiaArticleAfterComments h1,.WikiaArticleAfterComments .WikiaRail .module h3,.WikiaRail .module .WikiaArticleAfterComments h3,.WikiaArticleAfterComments h2,.WikiaArticleAfterComments h3,.WikiaArticleAfterComments h4,.WikiaArticleAfterComments h5,.WikiaArticleAfterComments h6{margin:.5em 0 .2em}
+.WikiaArticleAfterComments h2{border-bottom:solid 1px #c3c3c3;font-size:18px;margin-top:14px;overflow:hidden}
+.WikiaArticleAfterComments a.new,.WikiaArticleAfterComments a.new:visited{color:#cc2200}
+.WikiaArticleAfterComments ul,.WikiaArticleAfterComments ol{margin:0.4em 0 0.5em 2.5em}
+.WikiaArticleAfterComments ol{list-style:decimal}
+.WikiaArticleAfterComments ul{list-style:square}
+.WikiaArticleAfterComments p{margin:0.4em 0 0.5em}
+.WikiaArticle .WikiaBlogListingBox ul{border:1px solid #c3c3c3;padding:0 8px 8px}
+.RelatedPagesModule .more:hover{text-decoration:underline}#WikiaArticle .RelatedPagesModule{margin:0}
+.home-top-right-ads{float:right}
+.home-top-right-ads.hidden{display:none}
+.mw-content-ltr .forum-activity-module{margin:0 auto 30px;position:relative;width:300px;word-wrap:break-word}
+.mw-content-ltr .forum-activity-module h2{border-bottom:1px solid #c3c3c3;font-size:16px;font-weight:bold;height:30px;margin-bottom:16px;padding-left:2px}
+.mw-content-ltr .forum-activity-module ul{list-style:none;margin-left:0}
+.mw-content-ltr .forum-activity-module .activity-avatar{display:inline-block}
+.mw-content-ltr .forum-activity-module .activity-item{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;padding:6px 0}
+.mw-content-ltr .forum-activity-module .activity-info{display:inline-block;margin-left:7px;width:calc(100% - 45px)}
+.mw-content-ltr .forum-activity-module .edit-info{color:rgba(58,58,58,0.75);font-size:12px;line-height:16px;max-height:16px}
+.mw-content-ltr .forum-activity-module .edit-info .edit-info-user{color:rgba(58,58,58,0.75);display:inline-block;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mw-content-ltr .forum-activity-module .edit-info .edit-info-time{vertical-align:top}
+.mw-content-ltr .forum-activity-module .page-title{color:#0148c2;font-size:14px;line-height:normal;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mw-content-ltr .forum-activity-module .wds-avatar{border-color:#c3c3c3}
+.mw-content-ltr {direction:ltr}
+.mw-content-ltr .editsection,.mw-content-rtl .mw-content-ltr .editsection{ float:right}
+.mw-content-rtl .editsection,.mw-content-ltr .mw-content-rtl .editsection{ float:left}
+.mw-content-ltr ul,.mw-content-rtl .mw-content-ltr ul{ margin:0.3em 0 0 1.6em;padding:0}
+.mw-content-rtl ul,.mw-content-ltr .mw-content-rtl ul{ margin:0.3em 1.6em 0 0;padding:0}
+.mw-content-ltr ol,.mw-content-rtl .mw-content-ltr ol{ margin:0.3em 0 0 3.2em;padding:0}
+.mw-content-rtl ol,.mw-content-ltr .mw-content-rtl ol{ margin:0.3em 3.2em 0 0;padding:0}
+.mw-content-ltr dd,.mw-content-rtl .mw-content-ltr dd{margin-left:1.6em;margin-right:0}
+.mw-content-rtl dd,.mw-content-ltr .mw-content-rtl dd{margin-right:1.6em;margin-left:0}
+.mw-content-ltr .toc ul,.mw-content-ltr #toc ul,.mw-content-rtl .mw-content-ltr .toc ul,.mw-content-rtl .mw-content-ltr #toc ul{text-align:left}
+.mw-content-rtl .toc ul,.mw-content-rtl #toc ul,.mw-content-ltr .mw-content-rtl .toc ul,.mw-content-ltr .mw-content-rtl #toc ul{text-align:right}
+.mw-content-ltr .toc ul ul,.mw-content-ltr #toc ul ul,.mw-content-rtl .mw-content-ltr .toc ul ul,.mw-content-rtl .mw-content-ltr #toc ul ul{margin:0 0 0 2em}
+.mw-content-rtl .toc ul ul,.mw-content-rtl #toc ul ul,.mw-content-ltr .mw-content-rtl .toc ul ul,.mw-content-ltr .mw-content-rtl #toc ul ul{margin:0 2em 0 0}#toc #toctitle,.toc #toctitle,#toc .toctitle,.toc .toctitle{direction:ltr}
+.image-thumbnail.fluid,.video-thumbnail.fluid{width:100%}
+.image-thumbnail.fluid > img,.video-thumbnail.fluid > img{width:100%}
+.WikiaRail .premium-recirculation-rail .item.is-video .image-thumbnail::after{bottom:6px;height:20px;right:6px;width:20px}
+.WikiaRail .premium-recirculation-rail .image-thumbnail{-webkit-flex:0 0 94px;-ms-flex:0 0 94px;flex:0 0 94px}
+.portable-infobox .pi-item-spacing{padding:5px 10px}
+.portable-infobox > .pi-item:last-child{border-bottom:0}
+.pi-group > .pi-item:last-child{border-bottom:0}
+.portable-infobox .pi-header,.portable-infobox .pi-title{border:0;margin:0}
+.portable-infobox .pi-title{font-size:18px;line-height:28px}
+.portable-infobox .pi-data-label{margin-bottom:inherit;margin-top:0}
+.portable-infobox .pi-data-value > *,.portable-infobox .pi-data-value li{margin:0}
+.portable-infobox .pi-data-value ol,.portable-infobox .pi-data-value ul{list-style-position:inside}
+.portable-infobox .pi-data-value li{line-height:19px}
+.pi-data,.pi-group{border-bottom-style:solid;border-bottom-width:1px}
+.pi-data{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-box-orient:horizontal;-webkit-box-orient:horizontal;-ms-flex-direction:row;-webkit-flex-direction:row;flex-direction:row;box-sizing:border-box;overflow:hidden;width:100%}
+.pi-data-label{-ms-flex-preferred-size:90px;-webkit-flex-basis:90px;-moz-flex-basis:90px;flex-basis:90px;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;word-wrap:break-word}
+.pi-data-value{-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:12px;line-height:18px;padding-left:0;word-break:break-word}
+.pi-data-value:not(:first-child){-ms-flex-preferred-size:180px;-webkit-flex-basis:180px;-moz-flex-basis:180px;flex-basis:180px;padding-left:10px}
+.pi-horizontal-group .pi-data-label{padding-bottom:0}
+.pi-layout-stacked .pi-data{display:block}
+.pi-layout-stacked .pi-data-value{padding-left:10px}
+.pi-border-color{border-color:#b7c9e8}
+.portable-infobox .pi-secondary-font{font-size:12px;font-weight:bold;line-height:18px;margin-top:0}
+ol:lang(bcc) li,ol:lang(bqi) li,ol:lang(fa) li,ol:lang(glk) li,ol:lang(kk-arab) li,ol:lang(mzn) li{list-style-type:-moz-persian;list-style-type:persian}ol:lang(ckb) li{list-style-type:-moz-arabic-indic;list-style-type:arabic-indic}ol:lang(as) li,ol:lang(bn) li{list-style-type:-moz-bengali;list-style-type:bengali}ol:lang(or) li{list-style-type:-moz-oriya;list-style-type:oriya}#toc ul,.toc ul{margin:.3em 0}
+.SpeechBubble .speech-bubble-message .toc ul{list-style-type:none}
+.RelatedForumDiscussion .forum-user-name{font-weight:bold}nav.toc{display:table;position:relative}nav.toc > div{padding:2px}nav.toc h2{padding-right:5px}nav.toc ol{counter-reset:item}nav.toc > ol{display:none;margin:0}nav.toc.show > ol{display:block}nav.toc li{display:block}nav.toc li:before{content:counters(item,".") " ";counter-increment:item}
+table.mw_metadata{font-size:0.8em;margin-left:0.5em;margin-bottom:0.5em;width:400px}table.mw_metadata caption{font-weight:bold}table.mw_metadata th{font-weight:normal}table.mw_metadata td{padding:0.1em}table.mw_metadata{border:none;border-collapse:collapse}table.mw_metadata td,table.mw_metadata th{text-align:center;border:1px solid #aaaaaa;padding-left:5px;padding-right:5px}table.mw_metadata th{background-color:#f9f9f9}table.mw_metadata td{background-color:#fcfcfc}table.mw_metadata ul.metadata-langlist{list-style-type:none;list-style-image:none;padding-right:5px;padding-left:5px;margin:0}
+.WikiaImageModule .caption{margin-bottom:10px;text-align:center}#contentSub{font-size:14px;line-height:16px;padding:10px}#contentSub .commentslikes{display:inline;font-size:12px}#contentSub .commentslikes a:hover{text-decoration:none}
+table.wikitable{background:#efefef;border-collapse:collapse;border:1px #c3c3c3 solid;color:#3a3a3a;margin:1em 1em 1em 0}table.wikitable th,table.wikitable td{border:1px #9b9b9b solid;padding:0.2em}table.wikitable td b,table.wikitable td strong{font-weight:bold}table.wikitable td i,table.wikitable td em{font-style:italic}table.wikitable > tr > th,table.wikitable > * > tr > th{background:#e7e7e7;text-align:center}table.wikitable caption{font-weight:bold}
+.article-table caption,.WikiaTable caption{font-weight:bold}table.jquery-tablesorter.sortable th.headerSort .chevron{border-top-color:#3a3a3a}table.jquery-tablesorter.sortable th.headerSort .chevron:first-child{border-color:transparent transparent #3a3a3a}
+.article-thumb .caption{color:#7a7a7a}
+.article-thumb .caption a,.article-thumb .caption img{display:inline}
+.article-thumb{margin-bottom:15px;margin-top:6px}
+.article-thumb a,.article-thumb img{display:block}
+.article-thumb p,.article-thumb p + p{font-size:12px;line-height:16px;margin:0;padding-top:5px}
+.article-thumb p:last-child,.article-thumb p + p:last-child{padding-bottom:5px}
+.article-thumb.tright{clear:right;float:right;margin-left:20px}
+.article-thumb.tleft{clear:left;float:left;margin-right:20px}
+.article-thumb .title{font-weight:bold}
+.article-thumb figcaption{text-align:left}
+.article-thumb.show-info-icon .info-icon{display:none;float:right;margin:-22px 5px 0 0;position:relative}
+.article-thumb.show-info-icon:hover .info-icon{display:block}
+.article-thumb.show-info-icon:hover .duration{display:none}
+.article-thumb.inline-video-playing:hover .info-icon{display:none}
+ div.tright,div.floatright,table.floatright{clear:right;float:right}
+div.tleft,div.floatleft,table.floatleft{float:left;clear:left}div.floatright,table.floatright,div.floatleft,table.floatleft{position:relative}
+.SpeechBubble .speech-bubble-message div,.SpeechBubble .speech-bubble-message figure{max-width:100%}
+.portable-infobox{background-color:#dce3ef;clear:right;float:right;margin:0 0 15px 15px;width:270px}
+.pi-europa .pi-item-spacing{padding:10px 14px}
+.pi-europa .pi-item-spacing.pi-caption{padding-bottom:14px}
+.pi-europa .pi-header,.pi-europa .pi-title{background-color:#43a047;color:#fff;text-align:center}
+.pi-europa .pi-header a,.pi-europa .pi-title a{color:#fff;text-decoration:underline}
+.pi-europa .pi-title{font-size:20px;font-weight:bold;line-height:24px;padding-top:14px}
+.pi-europa.pi-layout-stacked .pi-data-label{padding-bottom:6px;padding-right:0}
+.pi-europa .pi-data-label{-ms-flex-preferred-size:88px;-webkit-flex-basis:88px;-moz-flex-basis:88px;flex-basis:88px;color:inherit;padding-right:14px}
+.pi-europa .pi-data-value{padding-left:0}
+.pi-europa .pi-data-value li{line-height:18px;padding-bottom:8px}
+.pi-europa .pi-data-value li:last-child{padding-bottom:0}
+.pi-europa .pi-data-value ul{list-style-type:disc}
+.pi-europa .pi-data-value ol{margin-left:14px}
+.pi-europa .pi-data-value ol,.pi-europa .pi-data-value ul{list-style-position:outside;margin-left:14px}
+.pi-europa .pi-data,.pi-europa .pi-group{border-bottom:0}
+.pi-europa .pi-horizontal-group .pi-data-label{padding:10px 14px 6px}
+.pi-europa .pi-horizontal-group .pi-data-value{padding-left:14px;padding-top:0}
+.pi-europa .pi-data-label.pi-smart-data-label{padding:10px 14px 6px}
+.pi-europa .pi-horizontal-group-no-labels .pi-data-value{padding-top:10px}
+.pi-europa.portable-infobox{color:#3a3a3a;width:300px}
+.pi-europa.pi-background{background-color:#dfe4df}
+.pi-europa .pi-caption{color:#757575;font-style:normal;line-height:18px}
+.pi-europa .pi-collapse .pi-header::after,.pi-europa .pi-header.collapsible::after{border-color:#fff;height:9px;right:14px;width:9px}
+.pi-europa .pi-collapse-closed .pi-header::after{margin-top:-7px}
+.pi-europa .pi-header{font-size:16px}
+.pi-europa .pi-header,.pi-europa .pi-image-collection-tabs{line-height:20px}
+.pi-europa .pi-header,.pi-europa .pi-tab-link{padding:9px 14px}
+.pi-europa .pi-horizontal-group-item:nth-child(even){background-color:#cfddd0}
+.pi-europa .pi-horizontal-group{text-align:left}
+.pi-europa .pi-horizontal-group .pi-horizontal-group-item{border-left:0}
+.pi-europa .pi-image-collection-tabs{background-color:#dfe4df;margin:0;text-align:left}
+.pi-europa .pi-image-collection-tabs .current{background-color:#a1c9a2}
+.pi-europa .pi-image-collection-tab-content{background-color:inherit}
+.pi-europa .pi-navigation{background-color:inherit;color:inherit;font-weight:inherit}
+.pi-europa .pi-smart-group-head + .pi-smart-group-body .pi-smart-data-value{padding-top:0}
+.pi-europa .pi-smart-data-label,.pi-europa .pi-smart-data-value{border-left:0;box-sizing:border-box;flex-basis:auto}
+.pi-europa .pi-smart-data-label:nth-child(even),.pi-europa .pi-smart-data-value:nth-child(even){background-color:#cfddd0}
+.pi-europa .pi-smart-group{border-bottom:0;text-align:left}
+.pi-europa .pi-tab-link{border:0;font-size:14px;margin:0}
+
+    </style>
+</head>
+<body>
+<div class="WikiaPageContentWrapper">
+    <header id="PageHeader" class="page-header">
+        <div class="page-header__main"><h1 class="page-header__title">South Park (Location)</h1></div>
+    </header>
+    <hr class="page-header__separator">
+    <article id="WikiaMainContent" class="WikiaMainContent">
+        <div id="WikiaMainContentContainer" class="WikiaMainContentContainer">
+            <div id="WikiaArticle" class="WikiaArticle">
+                <div class="home-top-right-ads"></div>
+                <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr mw-content-text">
+                    <aside class="portable-infobox pi-background pi-europa pi-theme-wikia pi-layout-default">
+                        <figure class="pi-item pi-image">
+                            <a href="https://southpark.cc.com/" class="image image-thumbnail"
+                               title="South Park">
+                                <img src="https://vignette.wikia.nocookie.net/southpark/images/c/c4/South_park.png/revision/latest/scale-to-width-down/310?cb=20180208185617" class="pi-image-thumbnail" alt="South Park" width="300"
+                                     height="169" data-image-key="South_Park.png" data-image-name="South_Park.png">
+                            </a>
+                        </figure>
+                        <a href="https://southpark.cc.com/"><h2 class="pi-item pi-item-spacing pi-title">South Park</h2></a>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Type</h3>
+                            <div class="pi-data-value pi-font">Fictional Town</div>
+                        </div>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">First Episode</h3>
+                            <div class="pi-data-value pi-font"><i><a
+                                    href="http://southpark.wikia.com/wiki/The_Spirit_of_Christmas#Jesus_vs._Frosty"
+                                    title="The Spirit of Christmas">Jesus vs. Frosty</a></i></div>
+                        </div>
+                    </aside>
+                    <aside class="portable-infobox pi-background pi-europa pi-theme-wikia pi-layout-default">
+                        <figure class="pi-item pi-image">
+                            <a href="http://fairplayco.us/" class="image image-thumbnail"
+                               title="Fairplay, Colorado">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/DSCN3327_fairplayandsouthparkcity_e_600.jpg" class="pi-image-thumbnail" alt="Fairplay, Colorado"
+                                     width="300" height="169" data-image-key="Fairplay.jpg"
+                                     data-image-name="Fairplay.jpg">
+                            </a>
+                        </figure>
+                        <a href="http://fairplayco.us/"><h2
+                                class="pi-item pi-item-spacing pi-title">Fairplay, Colorado</h2></a>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Type</h3>
+                            <div class="pi-data-value pi-font">Statutory Town</div>
+                        </div>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Founded</h3>
+                            <div class="pi-data-value pi-font">1859</div>
+                        </div>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Population</h3>
+                            <div class="pi-data-value pi-font">704</div>
+                        </div>
+                    </aside>
+                    <aside class="portable-infobox pi-background pi-europa pi-theme-wikia pi-layout-default">
+                        <figure class="pi-item pi-image">
+                            <a href="https://www.colorado.gov/" class="image image-thumbnail"
+                               title="State of Colorado">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/320px-Flag_of_Colorado.svg.png" class="pi-image-thumbnail" alt="State of Colorado"
+                                     width="300" height="169" data-image-key="Flag_of_Colorado.png"
+                                     data-image-name="Flag_of_Colorado.png">
+                            </a>
+                        </figure>
+                        <a href="https://www.colorado.gov/"><h2 class="pi-item pi-item-spacing pi-title">
+                            State of Colorado</h2></a>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Type</h3>
+                            <div class="pi-data-value pi-font">State</div>
+                        </div>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Capital</h3>
+                            <div class="pi-data-value pi-font">Denver</div>
+                        </div>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Population</h3>
+                            <div class="pi-data-value pi-font">5,540,545</div>
+                        </div>
+                    </aside>
+                    <aside class="portable-infobox pi-background pi-europa pi-theme-wikia pi-layout-default">
+                        <figure class="pi-item pi-image">
+                            <a href="https://en.wikipedia.org/wiki/United_States" class="image image-thumbnail"
+                               title="United States of America">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png" class="pi-image-thumbnail"
+                                     alt="United States of America" width="300" height="169"
+                                     data-image-key="Flag_of_the_United_States.png"
+                                     data-image-name="Flag_of_the_United_States.png">
+                            </a>
+                        </figure>
+                        <a href="https://en.wikipedia.org/wiki/United_States"><h2
+                                class="pi-item pi-item-spacing pi-title">United States of America</h2></a>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Type</h3>
+                            <div class="pi-data-value pi-font">Country</div>
+                        </div>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Capital</h3>
+                            <div class="pi-data-value pi-font">Washington, D.C.</div>
+                        </div>
+                        <div class="pi-item pi-data pi-item-spacing pi-border-color">
+                            <h3 class="pi-data-label pi-secondary-font">Population</h3>
+                            <div class="pi-data-value pi-font">325,719,178</div>
+                        </div>
+                    </aside>
+                    <p><b>South Park</b> is a fictional town in the state of <a
+                            href="http://en.wikipedia.org/wiki/Colorado" class="extiw" title="wikipedia:Colorado">Colorado</a>,
+                        which serves as the main setting of the eponymous show.</p>
+                    <nav id="toc" class="toc show" data-loaded="false">
+                        <div id="toctitle"><h2>Contents</h2></div>
+                        <ol>
+                            <li class="toclevel-1"><a href="#Background" rel="nofollow">Background</a>
+                                <ol>
+                                    <li class="toclevel-2"><a href="#Location" rel="nofollow">Location</a></li>
+                                    <li class="toclevel-2"><a href="#Description" rel="nofollow">Description</a></li>
+                                </ol>
+                            </li>
+                            <li class="toclevel-1"><a href="#Appearance" rel="nofollow">Appearance</a>
+                                <ol>
+                                    <li class="toclevel-2"><a href="#Layout" rel="nofollow">Layout</a></li>
+                                    <li class="toclevel-2"><a href="#Locations" rel="nofollow">Locations</a></li>
+                                    <li class="toclevel-2"><a href="#Current_State" rel="nofollow">Current State</a>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </nav>
+                    <h2><span class="mw-headline" id="Background">Background</span></h2>
+                    <h3><span class="mw-headline" id="Location">Location</span></h3>
+                    <p>There's an actual basin called <a href="http://en.wikipedia.org/wiki/South_Park_(Colorado_basin)"
+                                                         class="extiw" title="wikipedia:South Park (Colorado basin)">South
+                        Park</a> in Colorado, but the town in real life is known as Fairplay, Colorado. In the show,
+                        South Park's location is never specified but is shown to be part of <a
+                                href="http://en.wikipedia.org/wiki/Park_County,_Colorado" class="extiw"
+                                title="wikipedia:Park County, Colorado">Park County</a>, Colorado. It seems to be
+                        located near the state capital, <a href="http://en.wikipedia.org/wiki/Denver,_Colorado"
+                                                           class="extiw" title="wikipedia:Denver, Colorado">Denver</a>.
+                        It was also mentioned in "<a href="http://southpark.wikia.com/wiki/Quest_for_Ratings"
+                                                     title="Quest for Ratings">Quest for Ratings</a>" that it neighbors
+                        <a href="http://southpark.wikia.com/wiki/Middle_Park" title="Middle Park">Middle Park</a>. In
+                        the <a href="http://southpark.wikia.com/wiki/Season_8" title="Season 8" class="mw-redirect">Season
+                            8</a> episode "<a href="http://southpark.wikia.com/wiki/Goobacks"
+                                              title="Goobacks">Goobacks</a>," we learned that South Park is near to
+                        Route 285, a real route located near Denver, that runs through South Park Basin. <a
+                                href="http://southpark.wikia.com/wiki/List_of_Minor_Places_Outside_of_South_Park"
+                                title="List of Minor Places Outside of South Park">Other real towns</a> mentioned in the
+                        series are; Aspen, Boulder, Conifer, Eagle, Fairplay, Greeley, and Bailey.</p>
+                    <h3><span class="mw-headline" id="Description">Description</span></h3>
+                    <p>South Park is a small, stereotypical mountain town with an approximate population of 4,388, as
+                        revealed in "<a href="http://southpark.wikia.com/wiki/Chef_Goes_Nanners"
+                                        title="Chef Goes Nanners">Chef Goes Nanners</a>." Due to the show's use of a <a
+                                href="http://en.wikipedia.org/wiki/floating_timeline" class="extiw"
+                                title="wikipedia:floating timeline">floating timeline</a>, the town is perpetually in
+                        winter, with the occasional exception, such as "<a
+                                href="http://southpark.wikia.com/wiki/Summer_Sucks" title="Summer Sucks">Summer
+                            Sucks</a>," where the school year ended and summer vacation began. However, this "summer"
+                        only lasted for one episode, and the seasons of spring and fall were both bypassed completely.
+                    </p>
+                    <p>While South Park at first appears to be a fairly normal and relaxed city, many bizarre and
+                        paranormal happenings have occurred there. In the <a
+                                href="http://southpark.wikia.com/wiki/Cartman_Gets_an_Anal_Probe"
+                                title="Cartman Gets an Anal Probe">pilot episode</a>, alien <a
+                                href="http://southpark.wikia.com/wiki/Visitors" title="Visitors">Visitors</a> visit
+                        South Park. As the series progressed, South Park has encountered <a
+                                href="http://southpark.wikia.com/wiki/Starvin%27_Marvin" title="Starvin' Marvin">mutant
+                            turkeys</a>, <a href="http://southpark.wikia.com/wiki/Spookyfish" title="Spookyfish">killer
+                            fish from alternate dimensions</a>, and <a href="http://southpark.wikia.com/wiki/Goobacks"
+                                                                       title="Goobacks">immigrants from the future</a>.
+                        The adults of South Park are generally incompetent, unreasonable, and gullible (with the
+                        exception of <a href="http://southpark.wikia.com/wiki/Jerome_%22Chef%22_McElroy"
+                                        title="Jerome &quot;Chef&quot; McElroy">Chef</a>) and in "<a
+                                href="http://southpark.wikia.com/wiki/Here_Comes_the_Neighborhood"
+                                title="Here Comes the Neighborhood">Here Comes the Neighborhood</a>," they are all (with
+                        the exception of <a href="http://southpark.wikia.com/wiki/Token_Black" title="Token Black">Token
+                            Black</a>'s family) shown to be fairly low-income. When disaster strikes South Park, the
+                        adults are almost always completely ineffectual in solving it, leaving the children of South
+                        Park to save the town.</p>
+                    <p>However, the adults are still important to keeping order within South Park, as seen in "<a
+                            href="http://southpark.wikia.com/wiki/The_Wacky_Molestation_Adventure"
+                            title="The Wacky Molestation Adventure">The Wacky Molestation Adventure</a>." Adults also
+                        form successful organizations to fight the "source" of the boys' misdemeanors. For example, <a
+                                href="http://southpark.wikia.com/wiki/Mrs._Broflovski" title="Mrs. Broflovski"
+                                class="mw-redirect">Mrs. Broflovski</a> creates a very powerful organization in the film
+                        <i><a href="http://southpark.wikia.com/wiki/South_Park:_Bigger,_Longer_%26_Uncut"
+                              title="South Park: Bigger, Longer &amp; Uncut">South Park: Bigger, Longer &amp; Uncut</a></i>,
+                        called <a href="http://southpark.wikia.com/wiki/Mothers_Against_Canada"
+                                  title="Mothers Against Canada">Mothers Against Canada</a> in response to <a
+                                href="http://southpark.wikia.com/wiki/The_Boys" title="The Boys">the boys</a>'
+                        persistent foul language, which they blame on the movie <i><a
+                                href="http://southpark.wikia.com/wiki/Asses_of_Fire" title="Asses of Fire">Asses of
+                            Fire</a></i>.</p>
+                    <h2><span class="mw-headline" id="Appearance">Appearance</span></h2>
+                    <h3><span class="mw-headline" id="Layout">Layout</span></h3>
+                    <p>Buildings frequently change locations. From a distance, the town seems to be only the main
+                        street, but more is actually shown in the town. It may be that the rest of the town is behind a
+                        mountain, or simply the creators' way of showing it as a small town.</p>
+                    <h3><span class="mw-headline" id="Locations">Locations</span></h3>
+                    <dl>
+                        <dd><i>Main article: <a href="http://southpark.wikia.com/wiki/Portal:Locations"
+                                                title="Portal:Locations">Portal:Locations</a></i></dd>
+                    </dl>
+                    <p>Just like any sitcom, the show <i><a href="http://southpark.wikia.com/wiki/South_Park"
+                                                            title="South Park">South Park</a></i>&nbsp;has many
+                        different locations, most of which are situated inside the town. These include:</p>
+                    <ul>
+                        <li><b><a href="http://southpark.wikia.com/wiki/Bus_Stop" title="Bus Stop">The Bus Stop</a></b>:
+                            A roadside bus stop where <a href="http://southpark.wikia.com/wiki/Stan_Marsh"
+                                                         title="Stan Marsh">Stan Marsh</a>, <a
+                                    href="http://southpark.wikia.com/wiki/Kyle_Broflovski" title="Kyle Broflovski">Kyle
+                                Broflovski</a>, <a href="http://southpark.wikia.com/wiki/Eric_Cartman"
+                                                   title="Eric Cartman">Eric Cartman</a>, and <a
+                                    href="http://southpark.wikia.com/wiki/Kenny_McCormick" title="Kenny McCormick">Kenny
+                                McCormick</a> wait for the school bus, and one of the most iconic locations in the show.
+                        </li>
+                        <li><b><a href="http://southpark.wikia.com/wiki/South_Park_Elementary"
+                                  title="South Park Elementary">South Park Elementary</a></b>: The school that most of
+                            the children attend. It was run by <a
+                                    href="http://southpark.wikia.com/wiki/Principal_Victoria"
+                                    title="Principal Victoria">Principal Victoria</a> up until "<a
+                                    href="http://southpark.wikia.com/wiki/Stunning_and_Brave"
+                                    title="Stunning and Brave">Stunning and Brave</a>" where <a
+                                    href="http://southpark.wikia.com/wiki/P.C._Principal" title="P.C. Principal"
+                                    class="mw-redirect">P.C. Principal</a> took over.
+                        </li>
+                        <li><b><a href="http://southpark.wikia.com/wiki/Portal:Locations#Houses"
+                                  title="Portal:Locations">Residences</a></b>: The various houses of the residents of
+                            South Park. The houses are all very similar (excepting <a
+                                    href="http://southpark.wikia.com/wiki/Token_Black" title="Token Black">Token
+                                Black</a>'s and Kenny McCormick's) with the main differences being their color scheme.
+                        </li>
+                        <li><b>Main Street</b>: A street lined with many shops, such as <a
+                                href="http://southpark.wikia.com/wiki/Tom%27s_Rhinoplasty" title="Tom's Rhinoplasty">Tom's
+                            Rhinoplasty</a>.
+                        </li>
+                        <li><b><a href="http://southpark.wikia.com/wiki/Stark%27s_Pond" title="Stark's Pond">Stark's
+                            Pond</a></b>: A misty and slightly creepy pond near the edge of town. The <a
+                                href="http://southpark.wikia.com/wiki/Jakovasaurs" title="Jakovasaurs">Jakovasaurs</a>
+                            were found in this pond, and Cartman once tried to kill Kyle here.
+                        </li>
+                        <li><b><a href="http://southpark.wikia.com/wiki/City_Wok" title="City Wok">City Wok</a></b>: A
+                            Chinese restaurant owned by <a href="http://southpark.wikia.com/wiki/Tuong_Lu_Kim"
+                                                           title="Tuong Lu Kim">Tuong Lu Kim</a>, whose thick Chinese
+                            accent prevents him from correctly pronouncing the restaurant's name, making it sound like
+                            "Shitty Wok."
+                        </li>
+                        <li><b><a href="http://southpark.wikia.com/wiki/Hells_Pass_Hospital"
+                                  title="Hells Pass Hospital">Hells Pass Hospital</a></b>: An inconveniently situated
+                            hospital overlooking South Park.
+                        </li>
+                        <li><b><a href="http://southpark.wikia.com/wiki/South_Park_Genetic_Engineering_Ranch"
+                                  title="South Park Genetic Engineering Ranch">South Park Genetic Engineering Ranch</a></b>:
+                            A stereotypical mad scientist lab owned by genetic engineer <a
+                                    href="http://southpark.wikia.com/wiki/Dr._Alphonse_Mephesto"
+                                    title="Dr. Alphonse Mephesto">Dr. Alphonse Mephesto</a> and his creation, <a
+                                    href="http://southpark.wikia.com/wiki/Dr._Alphonse_Mephesto#Kevin"
+                                    title="Dr. Alphonse Mephesto">Kevin</a>.
+                        </li>
+                        <li><b><a href="http://southpark.wikia.com/wiki/City_Hall" title="City Hall">City Hall</a></b>:
+                            A typical city hall that houses <a href="http://southpark.wikia.com/wiki/Mayor_McDaniels"
+                                                               title="Mayor McDaniels">Mayor McDaniels</a>' office, and
+                            the meeting room for the <a href="http://southpark.wikia.com/wiki/City_Council"
+                                                        title="City Council">City Council</a>.
+                        </li>
+                        <li><b><a href="http://southpark.wikia.com/wiki/Bijou_Cinema" title="Bijou Cinema">Bijou
+                            Cinema</a></b>: A typical Movie Theater, which also hosted a Film Festival in "<a
+                                href="http://southpark.wikia.com/wiki/Chef%27s_Chocolate_Salty_Balls"
+                                title="Chef's Chocolate Salty Balls">Chef's Chocolate Salty Balls</a>".
+                        </li>
+                    </ul>
+                    <h3><span class="mw-headline" id="Current_State">Current State</span></h3>
+                    <p>South Park has been destroyed and rebuilt multiple times, such as in "<a
+                            href="http://southpark.wikia.com/wiki/Mecha-Streisand" title="Mecha-Streisand">Mecha-Streisand</a>,"
+                        "<a href="http://southpark.wikia.com/wiki/Chickenlover" title="Chickenlover">Chickenlover</a>,"
+                        and "<a href="http://southpark.wikia.com/wiki/201" title="201">201</a>." It has remained more or
+                        less the same since the show's creation, though more and more of the town has appeared as the
+                        show goes on.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+</body>
+</html>
